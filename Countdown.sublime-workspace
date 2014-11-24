@@ -31,7 +31,7 @@
 			"file": "www/index.html",
 			"settings":
 			{
-				"buffer_size": 935,
+				"buffer_size": 1007,
 				"line_ending": "Unix"
 			}
 		},
@@ -55,18 +55,31 @@
 			"file": "www/templates/newTask.html",
 			"settings":
 			{
-				"buffer_size": 1016,
+				"buffer_size": 3916,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "angular.module('countdown.task')\n.service('taskModel', ['taskService', function() {\n	this.init = function(taskId)  {\n		\n	}\n}]);",
-			"file": "www/js/task/taskModel.js",
-			"file_size": 81,
-			"file_write_time": 130612573233871584,
+			"file": "www/lib/ionic/scss/ionic.scss",
 			"settings":
 			{
-				"buffer_size": 127,
+				"buffer_size": 535,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/lib/ionic/scss/_scaffolding.scss",
+			"settings":
+			{
+				"buffer_size": 7102,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/js/task/taskModel.js",
+			"settings":
+			{
+				"buffer_size": 78,
 				"line_ending": "Windows"
 			}
 		},
@@ -120,7 +133,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 241.0,
+		"height": 490.0,
 		"selected_items":
 		[
 			[
@@ -156,14 +169,13 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Dev/Countdown/Countdown",
-		"/D/Dev/Countdown/Countdown/www",
-		"/D/Dev/Countdown/Countdown/www/js",
-		"/D/Dev/Countdown/Countdown/www/js/task",
-		"/D/Dev/Countdown/Countdown/www/templates"
+		"/D/Dev/Countdown",
+		"/D/Dev/Countdown/www",
+		"/D/Dev/Countdown/www/templates"
 	],
 	"file_history":
 	[
+		"/D/Dev/Countdown/www/lib/ionic/scss/_form.scss",
 		"/D/Dev/Countdown/Countdown/www/lib/parse/parse.min.js",
 		"/D/Dev/Countdown/Countdown/www/templates/playlist.html",
 		"/D/Dev/Countdown/Countdown/www/index.html",
@@ -176,7 +188,7 @@
 	],
 	"find":
 	{
-		"height": 30.0
+		"height": 43.0
 	},
 	"find_in_files":
 	{
@@ -213,7 +225,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -243,7 +255,7 @@
 						"translation.y": 1122.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
@@ -252,15 +264,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 935,
+						"buffer_size": 1007,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								825,
-								825
+								346,
+								346
 							]
 						],
 						"settings":
@@ -273,7 +285,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -303,7 +315,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
@@ -333,7 +345,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -342,15 +354,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1016,
+						"buffer_size": 3916,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								961,
-								936
+								2910,
+								2324
 							]
 						],
 						"settings":
@@ -358,32 +370,34 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 602.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "www/js/task/taskModel.js",
+					"file": "www/lib/ionic/scss/ionic.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 127,
+						"buffer_size": 535,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								119,
-								119
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -394,6 +408,64 @@
 				},
 				{
 					"buffer": 6,
+					"file": "www/lib/ionic/scss/_scaffolding.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7102,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3601,
+								3601
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4246.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "www/js/task/taskModel.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 78,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								78,
+								78
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
 					"file": "www/lib/parse/.bower.json",
 					"semi_transient": false,
 					"settings":
@@ -419,11 +491,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 9,
 					"file": "www/lib/parse/bower.json",
 					"semi_transient": false,
 					"settings":
@@ -449,11 +521,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 10,
 					"file": "www/js/task/newTaskCtrl.js",
 					"semi_transient": false,
 					"settings":
@@ -477,11 +549,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 11,
 					"file": "www/js/task/taskService.js",
 					"semi_transient": false,
 					"settings":
@@ -506,11 +578,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 12,
 					"file": "www/js/task/taskListCtrl.js",
 					"semi_transient": false,
 					"settings":
@@ -534,7 +606,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
